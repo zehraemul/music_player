@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+
+body{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.container{
+   position: absolute;
+   top: 35%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   border: 2px solid  rgb(106, 105, 105);
+   padding: 40px;
+   border-radius: 10px;
+   width:350px;
+   height: 550px;
+   margin-top: 80px;
+   background-color: white;
+   text-align: center;
+   background-color: rgb(231, 163, 174);
+
+}
+
+#progress_bar{
+    width: 100%;
+}
+.times{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-solid{
+    font-size: 20px;
+    margin-left: 20px;
+    color:white;
+    background-color: rgb(116, 98, 98);
+    border-radius: 50%;
+    width: 20px;
+    border: 1px solid rgb(116, 98, 98);
+
+}
+
+.fa-solid:hover{
+   cursor: pointer;
+   transition: 0.2s;
+   background-color: rgb(64, 59, 59);
+   border: 1px solid rgb(64, 59, 59);
+}
+
+.fa-play,
+.fa-pause{
+    background-color: rgb(64, 59, 59);
+    padding: 20px;
+    border-radius :50%;
+    text-align: center;
+    width: 30px;
+    font-size: 30px;
+}
+
+.fa-pause:hover{
+background-color: black;
+
+
+}
+.fa-play:hover{
+background-color: black;
+
+
+}
+
+#music_image{
+    height: 200px;
+    border: 2px solid gray;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: aliceblue;
+    
+}
+
+p{
+font-size: 20px;    
+}
+
+#controls i{
+    padding: 20px;
+    text-align: center;
+}
+
+#volume{
+    background-color:rgb(231, 163, 174);
+    border: 0;
+    color: black;
+}
+
+.volume_controls{
+    
+    padding-top: 50px;
+    
+}
+
+

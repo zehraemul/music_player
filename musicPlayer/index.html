@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>musicPlayer</title>
+</head>
+<body>
+
+    <div class="container">
+        <img src="" alt="" id="music_image">
+        <audio src="" id="audio"></audio>
+        <div id="music_details">
+            <p class="title"></p>
+            <p class="singer"></p>
+        </div>
+        <div id="progress">
+            <input type="range" id="progress_bar">
+            <div class="times">
+                <span id="current_time">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+            
+        </div>
+        <div id="controls">
+            <i id="prev" class="fa-solid fa-backward-step"></i>
+            <i id="play" class="fa-solid fa-play"></i>
+            <i id="next" class="fa-solid fa-forward-step"></i>
+        </div>
+        <div class="volume_controls">
+            <i id="volume" class="fa-solid fa-volume-low"></i>
+            <input type="range" id="volume-bar" max="100" value="50">
+        </div>
+    </div>
+
+    <script src="music.js"></script>
+    <script src="musicplayer.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
